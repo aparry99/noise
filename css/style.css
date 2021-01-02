@@ -1,0 +1,207 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden !important;
+  background-color: #2e2e2e !important;
+  color: white !important;
+}
+
+.bg-nav {
+  background-color: #1b1b1b !important;
+}
+
+.btn {
+  margin-bottom: 10px !important;
+}
+
+#loginBtn {
+  background-color: none !important;
+  border-color: white !important;
+  color: #007bff !important;
+}
+
+#registerBtn {
+  background-color: none !important;
+  border-color: white !important;
+  color: #007bff !important;
+}
+
+#logoutBtn {
+  background-color: none !important;
+  border-color: white !important;
+  color: white !important;
+}
+
+#tracksBtn {
+  background-color: none !important;
+  border-color: white !important;
+  color: white !important;
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border: 0px !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-content .card {
+  background-color: #2e2e2e !important;
+}
+
+.iconify {
+  width: 24px;
+  height: 24px;
+}
+
+.phpCallback {
+  margin-bottom: 0;
+}
+
+#searchBtn {
+  height: 38px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  margin-left: 0px;
+}
+
+#searchInput {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: #1b1b1b !important;
+}
+
+.card hr {
+  border-top: 1px solid white;
+}
+
+.card-header {
+  border-bottom: 1px solid rgb(255 255 255 / 13%) !important;
+}
+
+#filter {
+  margin-left: 50px;
+  min-width: 240px;
+}
+
+* {
+  font-family: "Allerta", arial, Tahoma;
+  box-sizing: border-box;
+}
+
+.container-audio {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.container {
+  margin-left: inherit !important;
+}
+
+audio {
+  filter: sepia(20%) saturate(100%) grayscale(1) contrast(99%) invert(83%);
+  height: 20px;
+  width: 100%;
+}
+
+audio:focus {
+  outline: none;
+}
+
+[class*="canvas_"] {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100px;
+  width: 580px;
+}
+
+#canvas-circle {
+  opacity: 1;
+  position: absolute;
+}
+
+#canvas-circle2 {
+  opacity: 1;
+  position: absolute;
+}
+
+.container-viz {
+  position: relative;
+  height: 817px;
+  width: 817px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  /* border: 1px solid white; */
+}
+
+.container-audio:hover {
+  cursor: pointer;
+}
+
+.container-viz #bg {
+  position: absolute;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  /* background-image: url("../choonCovers/Bimmer\ Music.jpg"); */
+  background-size: cover;
+}
+
+#scroll {
+  margin-top: 20px;
+  padding-right: 35px;
+  height: calc(100vh - 120px);
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 0 6px rgba(46, 46, 46, 0.7);
+}
+
+/* #canvas-background {
+  position: absolute;
+  top: -600px;
+  left: 30px;
+  z-index: -1;
+} */
